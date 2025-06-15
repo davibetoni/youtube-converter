@@ -45,7 +45,7 @@ if st.button("⬇️ Baixar MP3"):
         try:
             title, path = baixar_audio_mp3(url)
             with open(path, "rb") as f:
-                st.success(f"✅ MP3 '{title}' baixado com sucesso!")
+                st.success(f"✅ MP3 '{title}' pronta para ser baixada!")
                 st.download_button("📥 Baixar arquivo MP3", f, file_name=os.path.basename(path))
         except Exception as e:
             st.error(f"❌ Erro ao baixar: {e}")

@@ -1,0 +1,5 @@
+# Interface web
+streamlit>=1.32.0
+
+# Interface web - support for video and audio
+yt-dlp>=2024.4.9
